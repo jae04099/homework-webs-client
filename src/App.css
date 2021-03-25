@@ -1,0 +1,49 @@
+/* dark-mode */
+/* #1F1F26 bgc
+#252531 card bgc
+#FDFDFD font */
+/* html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #F2F6FC;
+} */
+
+.cardWrap {
+    display: grid;
+    grid-template-columns: 5% 1fr 5%;
+    
+}
+
+
+.grid-card {
+    display: grid;
+    grid-column: 2/3;
+}
+.catWrap {
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+}
+.catInnerGrid {
+    display: grid;
+    grid-column: 2/3;
+}
+.catInnerFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* dark-mode */
+
+/* @media (prefers-color-scheme: dark) {
+    html {
+        background: #232732;
+    }
+} */
